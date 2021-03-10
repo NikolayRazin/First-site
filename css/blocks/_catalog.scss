@@ -1,0 +1,103 @@
+.breadcrumb {
+    background-color: #f8f3f4;
+    &-wrap {
+        height: 148px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 9px;
+    }
+    &-left {
+        &-new {
+            text-decoration: none;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            color: #f16d7f;
+        }
+    }
+
+    &-right {
+        &-home {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #636363;
+            text-decoration: none;
+        }
+        &-arrivals {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            text-decoration: none;
+            color: #f16d7f;
+        }
+    }
+}
+
+.filter {
+    &-wrap {
+        margin-top: 51px;
+        margin-bottom: 64px;
+        display: flex;
+        position: relative;
+        
+    }
+
+    &-left {
+        position: absolute;
+        z-index: +2;
+        
+    }
+
+    .filter-text{
+        text-decoration: none;
+    }
+
+    &-right {
+        display: flex;
+        position: absolute;
+        z-index: +2;
+        margin-left: 34.1%;
+    }
+}
+
+.pagination {
+    &-wrap {
+        display: flex;
+        justify-content: center;
+        margin: 48px 0 96px 0;
+    }
+
+    &-list {
+        width: 283px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        border: 1px solid #c4c4c4;
+        border-radius: 3px;
+        padding: 15px;
+    }
+
+    &-list-page {
+        &-link {
+            text-decoration: none;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            color: #c4c4c4;
+            &:hover {
+                color: #ef5b70;
+            }
+        }
+    }
+}

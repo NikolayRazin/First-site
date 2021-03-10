@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+``1<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Главная test</title>
+    <title>Каталог</title>
     <script src="https://kit.fontawesome.com/9d32e68003.js" crossorigin="anonymous"></script>
     <link rel="icon" href="img/logo.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"> </head>
+    <link rel="stylesheet" href="/css/style.css"> </head>
 
 <body>
     <header class="header">
@@ -27,49 +27,80 @@
         </div>
     </header>
     <main class="main">
-        <section class="promo">
-            <h2 class="hidden">Бренд</h2>
-            <div class="wrap promo-wrap">
-                <picture class="promo-men">
-                    
-                    <source media="(max-width: 1180px)" srcset="/img/menbig768.png"> 
-                        <source media="(max-width: 800px)" srcset="..." >       
-                    <img src="/img/menbig.png" alt=""> 
-                </picture>
-                <div class="promo-text">
-                    <div class="promo-text-title">THE BRAND </div>
-                    <div class="promo-text-conteiner">
-                        <div class="promo-text-conteiner-of">OF LUXERIOUS</div>
-                        <div class="promo-text-conteiner-fashion">FASHION</div>
-                    </div>
-                </div>
+        <section class="breadcrumb">
+            <h2 class="hidden">Новые поступления</h2>
+            <div class="wrap breadcrumb-wrap">
+                <div class="breadcrumb-left"> <a class="breadcrumb-left-new" href="#">NEW ARRIVALS </a></div>
+                <div class="breadcrumb-right"> <a class="breadcrumb-right-home" href="#">HOME /</a> <a class="breadcrumb-right-home" href="#">MEN /</a> <a class="breadcrumb-right-arrivals" href="#">NEW ARRIVALS</a> </div>
             </div>
         </section>
-        <section class="categories">
-            <h2 class="hidden">Категории</h2>
-            <div class="wrap categories-wrap">
-                <div class="category-woman">
-                    <div class="category-title">30% OFF</div>
-                    <div class="category-title-title">FOR WOMEN</div>
+
+
+        <section class="filter">
+            <div class="wrap filter-wrap">
+                <details class="filter-left">
+                    <summary class="filter-text">FILTER
+                        <svg class="filter-text-img" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z" fill="black" /> </svg>
+                    </summary>
+                    <div class="filter-left-menu">
+                        <details class="filter-left-menu-conteiner">
+                            <summary class="filter-left-menu-conteiner-title">CATEGORY</summary>
+                            <ul class="filter-list">
+                                <li class="filter-item"><a class="filter-link" href="#">Accessories</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">Bags</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">Denim</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">Hoodies & Sweatshirts</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">Jackets & Coats</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">Polos</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">Shirts</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">Shoes</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">Sweaters & Knits</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">T-Shirts</a></li>
+                                <li class="filter-item"><a class="filter-link" href="#">Tanks</a></li>
+                            </ul>
+                        </details>
+                        <details class="filter-left-menu-conteiner">
+                            <summary class="filter-left-menu-conteiner-title">BRAND</summary>
+                            
+                        </details>
+                        <details class="filter-left-menu-conteiner">
+                            <summary class="ffilter-left-menu-conteiner-title">DESIGNER</summary>
+                        </details>
+                    </div>
+                </details>
+
+
+                <div class="filter-right">
+               
+               
+                    <div class="filter-right-trending">TRANDING NOW <img class="vector" src="img/Vector.png" alt="Изображение"></div>
+                    <div class="filter-right-size">
+                        <details class="filter-right-size-filter">
+                            <summary class="product-size"> SIZE <img class="vector" src="img/Vector.png" alt="Изображение"> </summary>
+                            <div class="product-size-box-content">
+                            
+                                <input  class="product-box" type="checkbox" name="size" > XS</label> <br>
+                        
+                                <input class="product-box" type="checkbox" name="size"> S</label> <br>
+                            
+                                <input class="product-box"  type="checkbox" name="size" > M</label> <br>
+                        
+                                <input class="product-box" type="checkbox" name="size"> L</label>
+                            
+                            </div>
+                        </details>
+                    </div>
+                    <div class="product-prise"> PRISE <img class="vector" src="img/Vector.png" alt="Изображение"> </div>
                 </div>
-                <div class="category-men">
-                    <div class="category-title">HOT DEAL</div>
-                    <div class="category-title-title">FOR MEN</div>
-                </div>
-                <div class="category-kids">
-                    <div class="category-title">NEW ARRIVALS</div>
-                    <div class="category-title-title">FOR KIDS</div>
-                </div>
-                <div class="category-accesories">
-                    <div class="category-title">LUXIROUS & TRENDY</div>
-                    <div class="category-title-title">ACCESORIES</div>
-                </div>
+
+
+
             </div>
         </section>
         <section class="products">
             <div class="wrap products-wrap ">
-                <div class="products-title">Fetured Items</div>
-                <div class="products-text">Shop for items based on what we featured in this week</div>
+                           
                 <div class="products-cards">
                     <div class="product-card">
                         <img class="product-img" src="img/Product-1.png" alt="Изображение">
@@ -170,51 +201,54 @@
                     </div>
                     
                 </div>
-                <div class="products-btn">Browse All Product</div>
                 
+                <nav aria-label="Page navigation example">
+                    <div class="pagination-wrap">
+                        <ul class="pagination-list">
+                            <li class="pagination-list-item">
+                                <a class="pagination-list-item-link" href="#" aria-label="Previous"> <span aria-hidden="true"><img src="img/vector-left.svg" alt=""></span> </a>
+                            </li>
+                            <li class="pagination-list-page"><a class="pagination-list-page-link" href="#">1</a></li>
+                            <li class="pagination-list-page"><a class="pagination-list-page-link" href="#">2</a></li>
+                            <li class="pagination-list-page"><a class="pagination-list-page-link" href="#">3</a></li>
+                            <li class="pagination-list-page"><a class="pagination-list-page-link" href="#">4</a></li>
+                            <li class="pagination-list-page"><a class="pagination-list-page-link" href="#">5</a></li>
+                            <li class="pagination-list-page"><a class="pagination-list-page-link" href="#">6</a></li>
+                            <li class="page">
+                                <a class="page-link" href="#" aria-label="Next"> <span aria-hidden="true"><img src="img/vector-right.svg" alt=""></span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
 
             </div>
         </section>
-       <section class="feature">
-        <h2 class="hidden">Преимущества </h2>
-           <div class="wrap feature-wrap">
-            <div class="feature-info">
-                <a class="feature-info-link" href="#"><img  src="img/delivery.svg" alt="Изображение"></a>
-                <p class="feature-info-title">Free Delivery</p>
-                <p class="feature-info-delivery">Worldwide delivery on all. Authorit tively morph
-                    <br> next-generation innov tion with extensive models.</p>
+
+
+
+        <section class="feature">
+            <h2 class="hidden">Преимущества </h2>
+            <div class="wrap feature-wrap">
+                <div class="feature-info">
+                    <a class="feature-info-link" href="#"><img src="img/delivery.svg" alt="Изображение"></a>
+                    <p class="feature-info-title">Free Delivery</p>
+                    <p class="feature-info-delivery">Worldwide delivery on all. Authorit tively morph
+                        <br> next-generation innov tion with extensive models.</p>
+                </div>
+                <div class="feature-info">
+                    <a class="feature-info-link" href="#"><img src="img/sale.svg" alt="Изображение"></a>
+                    <p class="feature-info-title">Free Delivery</p>
+                    <p class="feature-info-delivery">Worldwide delivery on all. Authorit tively morph
+                        <br> next-generation innov tion with extensive models.</p>
+                </div>
+                <div class="feature-info">
+                    <a class="feature-info-link" href="#"><img src="img/crown.svg" alt="Изображение"></a>
+                    <p class="feature-info-title">Free Delivery</p>
+                    <p class="feature-info-delivery">Worldwide delivery on all. Authorit tively morph
+                        <br> next-generation innov tion with extensive models.</p>
+                </div>
             </div>
-            <div class="feature-info">
-                <a class="feature-info-link" href="#"><img  src="img/sale.svg" alt="Изображение"></a>
-                <p class="feature-info-title">Free Delivery</p>
-                <p class="feature-info-delivery">Worldwide delivery on all. Authorit tively morph
-                    <br> next-generation innov tion with extensive models.</p>
-            </div>
-            <div class="feature-info">
-                <a class="feature-info-link" href="#"><img  src="img/crown.svg" alt="Изображение"></a>
-                <p class="feature-info-title">Free Delivery</p>
-                <p class="feature-info-delivery">Worldwide delivery on all. Authorit tively morph
-                    <br> next-generation innov tion with extensive models.</p>
-            </div>
-
-           </div>
-       </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </section>
     </main>
     <section class="subscription">
         <h2 class="hidden">Отзывы и подписка </h2>

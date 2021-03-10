@@ -2,7 +2,8 @@
     .wrap {
         max-width: calc(768px - 16px * 2);
         margin: 0 auto;
-            }
+        
+    }
     .promo {
         &-wrap {
             height: 367px;
@@ -96,12 +97,14 @@
     .wrap {
         max-width: calc(375px - 16px * 2);
         margin: 0 auto;
-        
     }
     .promo {
         &-wrap {
             display: flex;
             justify-content: center;
+        }
+        &-men {
+            display: none;
         }
 
         .promo-text {
@@ -150,11 +153,10 @@
         }
     }
     .subscription {
-
-        &-wrap{
+        &-wrap {
             height: 550px;
         }
-        &-info{
+        &-info {
             margin: 64px 0 0 0;
         }
 
@@ -184,21 +186,19 @@
             }
         }
     }
-    .footer{
-        &-wrap{
+    .footer {
+        &-wrap {
             height: 143px;
             flex-direction: column;
             align-items: center;
             flex-flow: column-reverse;
-
         }
 
-        &-social{
+        &-social {
             margin: 43px 0 40px 0;
         }
-        &-brand{
+        &-brand {
             margin: 0 0 9px 0;
         }
     }
-        
 }
