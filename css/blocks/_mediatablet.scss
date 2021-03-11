@@ -2,7 +2,6 @@
     .wrap {
         max-width: calc(768px - 16px * 2);
         margin: 0 auto;
-        
     }
     .promo {
         &-wrap {
@@ -89,6 +88,13 @@
     .footer {
         &-wrap {
             padding: 0 32px;
+        }
+    }
+    // страница каталога
+    .filter {
+        
+        &-right {
+            margin-left: 385px !important;
         }
     }
 }
@@ -199,6 +205,29 @@
         }
         &-brand {
             margin: 0 0 9px 0;
+        }
+    }
+
+    // страница каталога
+
+    .filter {
+        &-text {
+            margin: 0;
+            
+        }
+        &-right {
+            margin-left: 385px !important;
+        }
+    }
+
+    .breadcrumb {
+        &-wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: center !important;
+        }
+        &-left {
+            margin: 0 0 32px 0;
         }
     }
 }
