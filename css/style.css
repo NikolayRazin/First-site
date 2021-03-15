@@ -719,6 +719,9 @@
   .product-card {
     margin: 0 0 18px 0;
   }
+  #product-card-media {
+    display: none;
+  }
   .feature-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -803,6 +806,16 @@
   .promo .promo-text-conteiner-fashion {
     font-size: 20px !important;
     line-height: 24px !important;
+  }
+  .description-line {
+    width: 175px !important;
+  }
+  .description-filter-sort {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  #product-card-media {
+    display: none;
   }
   .categories {
     padding: 64px 0 64px 0;

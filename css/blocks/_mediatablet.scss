@@ -58,6 +58,9 @@
             margin: 0 0 18px 0;
         }
     }
+    #product-card-media {
+        display: none;
+    }
     .feature {
         &-wrap {
             display: flex;
@@ -92,7 +95,6 @@
     }
     // страница каталога
     .filter {
-        
         &-right {
             margin-left: 385px !important;
         }
@@ -132,7 +134,20 @@
             }
         }
     }
+    .description {
+        &-line {
+            width: 175px !important;
+        }
 
+        &-filter-sort {
+            font-size: 10px;
+            line-height: 12px;
+        }
+    }
+
+    #product-card-media {
+        display: none;
+    }
     .categories {
         padding: 64px 0 64px 0;
         .category-woman {
@@ -213,7 +228,6 @@
     .filter {
         &-text {
             margin: 0;
-            
         }
         &-right {
             margin-left: 385px !important;
